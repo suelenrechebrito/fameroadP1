@@ -1,0 +1,64 @@
+body {display: inline-block;
+    background-image: url(principal1.jpg); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.frase { display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color:black;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 940px;
+        }
+
+
+.apresentacao { display: flex;
+    background-color:black;
+    font-size: 23px;
+    color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    position:relative;
+    margin: 100px auto 100px auto;
+}
+
+
+.botao { display: flex;
+        justify-content: center;
+        width:150px;
+        text-transform: uppercase;
+        background-color: black;
+        color: goldenrod;
+        border-radius: 10px;
+        position:relative;
+        margin: 200px auto 100px auto;
+    }
+
+.botoes { width: 940px;
+position:relative;
+margin:0, auto, auto;}
+
+nav li { display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 5px;
+    position:relative;
+    text-align: center;
+    }
+
+
+
+.botao:hover { 
+    font-size: 25px;
+    transition-duration: 0.2s;
+    }
+
