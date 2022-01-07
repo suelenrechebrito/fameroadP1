@@ -1,0 +1,25 @@
+body {display: inline-block;
+    background-image: url(rock3.jpg); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.frase { display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color:black;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 200px;
+    width: 940px;
+        }
+
+
+
+
+
+
