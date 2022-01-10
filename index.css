@@ -1,22 +1,25 @@
-body {display: inline-block;
+body {
+    display: inline-block;
     background-image: url(principal1.jpg); 
-}
-
+    font-family: sans-serif;
+    }
 
 nav {
     position:absolute;
-    top:250px  ;
-    width: 940px;
+    top: 150px;
     display: flex;
     justify-content: space-evenly;
-}
+    }
+
 nav li { 
     display: inline;
     margin: 0 0 0 15px;
     position: relative;
-   
-    }
-
+    top: 350px;
+    left: 210px;
+    right: 150px;
+    width: 940px;
+     }
 
 nav a { 
     text-decoration: none;
@@ -25,36 +28,24 @@ nav a {
     color: goldenrod;
     border-radius: 5px;
     text-align: center;
-    font-size: 25px; 
+    font-size: 20px; 
     padding: 20px;
+    }
 
-   }
 
-.frase {
+heather.frase {
     display: inline;
-    position: relative;
+    position: absolute;
     background-color:black;
     font-size: 25px;
     color: goldenrod;
     text-align: center;
     border-radius: 10px;
-      
-}
+    margin:50px auto 150px auto;
+    width: 1000px;
+    }
 
-
-.apresentacao { 
-    display: flex;
-    background-color:black;
-    font-size: 23px;
-    color: goldenrod;
-    text-align: center;
-    border-radius: 10px;
-    position:relative;
-    margin: 100px auto 100px auto;
-}
-
-
-.botao { 
+nav.botao { 
     display: flex;
     justify-content: center;
     width:150px;
@@ -63,11 +54,45 @@ nav a {
     color: goldenrod;
     border-radius: 10px;
     position:relative;
-    margin: 200px auto 100px auto;
+    margin: 450px 0px 100px 400px;
+    }
+
+  
+.apresentacao { 
+    display: flex;
+    background-color:black;
+    font-size: 23px;
+    color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    position:absolute;
+    margin: 300px auto 0px auto;
     }
 
 .botao:hover { 
     font-size: 25px;
     transition-duration: 0.2s;
     }
+
+a:hover { 
+    font-size: 25px;
+    transition-duration: 0.2s;
+    }
+    
+
+li#rock:hover {
+    font-size: 25px;
+    transition-duration: 0.2s;
+    } 
+
+li#sertanejo:hover {
+    font-size: 25px;
+    transition-duration: 0.2s;
+    }
+
+li#pop:hover {
+    font-size: 25px;
+    transition-duration: 0.2s;
+    }
+
 
