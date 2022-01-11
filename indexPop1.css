@@ -4,6 +4,33 @@ body {
     font-family: sans-serif;
 }
 
+nav li { 
+    display: inline;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    right: 100px;
+    width: 940px;
+     }
+
+nav a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+     }
+
+nav.botao {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    }
 
 button {
     position: relative;
@@ -64,4 +91,3 @@ heather.frase {
 #repete:checked {
     color:cornflowerblue;
     }
-
