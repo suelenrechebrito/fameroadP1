@@ -2,7 +2,7 @@ body {
     display: inline-block;
     background-image: url(pop1.jpg); 
     font-family: sans-serif;
-}
+    }
 
 nav li { 
     display: inline;
@@ -12,7 +12,7 @@ nav li {
     left: 150px;
     right: 100px;
     width: 940px;
-     }
+    }
 
 nav a { 
     text-decoration: none;
@@ -23,7 +23,7 @@ nav a {
     text-align: center;
     font-size: 20px; 
     padding: 20px;
-     }
+    }
 
 nav.botao {
     position: absolute;
@@ -33,7 +33,7 @@ nav.botao {
     }
 
 button {
-    position: relative;
+    position: absolute;
     text-decoration: none;
     text-transform: uppercase;
     background-color: black;
@@ -44,8 +44,16 @@ button {
     padding: 20px;
     top: 450px;
     left: 450px;
+    }
 
-}
+footer {
+    background-color: black;
+    color: burlywood;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 350px;
+    }
 
 heather.frase { 
     display: flex;
@@ -60,22 +68,19 @@ heather.frase {
     margin-top: 200px;
     left: 50px;
     width: 940px;
-        }
+    }
 
 #botao:hover { 
     font-size: 23px;
-    color:cornflowerblue;
     transition-duration: 0.2s;
-            }
+    }
 
 #inicio:hover {
     font-size: 23px;
-    color:cornflowerblue;
     transition-duration: 0.2s;
-}
+    }
 
 #repete:hover {
-    color:cornflowerblue;
     font-size: 23px;
     transition-duration: 0.2s;
     }
@@ -90,4 +95,9 @@ heather.frase {
 
 #repete:checked {
     color:cornflowerblue;
+    }
+
+footer#reservado {
+    margin-top: 580px;
+    margin-left: 380px;
     }

@@ -33,7 +33,7 @@ nav.botao {
     }
 
 button {
-    position: relative;
+    position: absolute;
     text-decoration: none;
     text-transform: uppercase;
     background-color: black;
@@ -44,6 +44,15 @@ button {
     padding: 20px;
     top: 450px;
     left: 450px;
+    }
+
+footer {
+    background-color: black;
+    color: burlywood;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 350px;
     }
 
 heather.frase { 
@@ -69,7 +78,7 @@ heather.frase {
 #inicio:hover {
     font-size: 23px;
     transition-duration: 0.2s;
-}
+    }
 
 #repete:hover {
     font-size: 23px;
@@ -86,4 +95,9 @@ heather.frase {
 
 #repete:checked {
     color:cornflowerblue;
+    }
+
+footer#reservado {
+    margin-top: 580px;
+    margin-left: 380px;
     }

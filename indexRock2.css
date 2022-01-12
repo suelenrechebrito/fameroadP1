@@ -25,15 +25,15 @@ nav a {
     padding: 20px;
     }
 
-nav.botao {
-    position: absolute;
-    top: 150px;
-    display: flex;
-    justify-content: space-evenly;
+footer {
+    background-color: black;
+    color: burlywood;
+    font-size: 10px;
+    display: inline-block;    
     }
 
 button {
-    position: relative;
+    position: absolute;
     text-decoration: none;
     text-transform: uppercase;
     background-color: black;
@@ -44,6 +44,13 @@ button {
     padding: 20px;
     top: 450px;
     left: 450px;
+    }
+
+nav.botao {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: space-evenly;
     }
 
 heather.frase { 
@@ -86,4 +93,9 @@ heather.frase {
 
 #repete:checked {
     color:cornflowerblue;
+    }
+
+footer#reservado {
+    margin-top: 580px;
+    margin-left: 380px;
     }

@@ -31,9 +31,16 @@ nav.botao {
     display: flex;
     justify-content: space-evenly;
     }
+    
+footer {
+    background-color: black;
+    color: burlywood;
+    font-size: 10px;
+    display: inline-block;    
+    }
 
 button {
-    position: relative;
+    position: absolute;
     text-decoration: none;
     text-transform: uppercase;
     background-color: black;
@@ -87,4 +94,9 @@ heather.frase {
 
 #repete:checked {
     color:cornflowerblue;
+    }
+
+footer#reservado {
+    margin-top: 580px;
+    margin-left: 380px;
     }
