@@ -1,0 +1,128 @@
+body {
+    display: inline-block;
+    background-image: url(../IMG/pop3.jfif); 
+    font-family: sans-serif;
+    }
+
+nav li { 
+    display: inline;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    right: 100px;
+    width: 940px;
+    }
+
+nav a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+    }
+
+nav.botao {
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+button {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+    top: 450px;
+    left: 450px;
+    }
+
+footer {
+    background-color: black;
+    color: burlywood;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 350px;
+    }
+
+heather.frase { 
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center; 
+    background-color:black;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 200px;
+    left: 50px;
+    width: 940px;
+    }
+
+#botao:hover { 
+    font-size: 23px;
+    transition-duration: 0.2s;
+    }
+
+#inicio:hover {
+    font-size: 23px;
+    transition-duration: 0.2s;
+    }
+
+#repete:hover {
+    font-size: 23px;
+    transition-duration: 0.2s;
+    }
+
+#botao:checked { 
+    color:cornflowerblue;
+    }
+
+#inicio:checked {
+    color:cornflowerblue;
+    }
+
+#repete:checked {
+    color:cornflowerblue;
+    }
+
+footer#reservado {
+    margin-top: 580px;
+    margin-left: 380px;
+    }
+
+@media (max-width: 700px) {
+    body{
+        flex-direction: column;
+        }
+    
+    .apresentacao{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 0 0;
+        }
+        
+    heather.frase {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 0 0;
+        }
+            
+    footer#reservado{
+        width: auto;
+        font-size: small;
+        }
+    }
